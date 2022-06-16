@@ -1,7 +1,9 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@leekoho/prettier-config': ^0.0.2
   '@vitejs/plugin-vue': ^2.3.3
+  prettier: ^2.7.1
   typescript: ^4.5.4
   vite: ^2.9.9
   vue: ^3.2.25
@@ -11,7 +13,9 @@ dependencies:
   vue: 3.2.37
 
 devDependencies:
+  '@leekoho/prettier-config': 0.0.2_prettier@2.7.1
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.12+vue@3.2.37
+  prettier: 2.7.1
   typescript: 4.7.3
   vite: 2.9.12
   vue-tsc: 0.34.17_typescript@4.7.3
@@ -22,6 +26,14 @@ packages:
     resolution: {integrity: sha512-YZWVaglMiplo7v8f1oMQ5ZPQr0vn7HPeZXxXWsxXJRjGVrzUFn9OxFQl1sb5wzfootjA/yChhW84BV+383FSOw==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+
+  /@leekoho/prettier-config/0.0.2_prettier@2.7.1:
+    resolution: {integrity: sha512-f2aMzByvPGdoN4s6ZMAU+qJpaZuHDcxiCqRJBk4P/gCk9DJ7DL9kxhRyN/stoLCJUM8d9nCCFo/teFA7m6XbNQ==}
+    peerDependencies:
+      prettier: ^2.6.0
+    dependencies:
+      prettier: 2.7.1
+    dev: true
 
   /@vitejs/plugin-vue/2.3.3_vite@2.9.12+vue@3.2.37:
     resolution: {integrity: sha512-SmQLDyhz+6lGJhPELsBdzXGc+AcaT8stgkbiTFGpXPe8Tl1tJaBw1A6pxDqDuRsVkD8uscrkx3hA7QDOoKYtyw==}
@@ -404,6 +416,12 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
+
+  /prettier/2.7.1:
+    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
+    dev: true
 
   /resolve/1.22.0:
     resolution: {integrity: sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==}
