@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@leekoho/prettier-config': ^0.0.2
+  '@types/node': ^18.0.0
   '@vitejs/plugin-vue': ^2.3.3
   '@windicss/plugin-animations': ^1.0.9
   prettier: ^2.7.1
@@ -22,6 +23,7 @@ dependencies:
 
 devDependencies:
   '@leekoho/prettier-config': 0.0.2_prettier@2.7.1
+  '@types/node': 18.0.0
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.12+vue@3.2.37
   '@windicss/plugin-animations': 1.0.9
   prettier: 2.7.1
@@ -82,6 +84,10 @@ packages:
 
   /@types/ms/0.7.31:
     resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
+    dev: true
+
+  /@types/node/18.0.0:
+    resolution: {integrity: sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==}
     dev: true
 
   /@vitejs/plugin-vue/2.3.3_vite@2.9.12+vue@3.2.37:
