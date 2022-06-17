@@ -14,13 +14,16 @@
   "devDependencies": {
     "@leekoho/prettier-config": "^0.0.2",
     "@vitejs/plugin-vue": "^2.3.3",
+    "@windicss/plugin-animations": "^1.0.9",
     "prettier": "^2.7.1",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
     "vite-plugin-html-env": "^1.1.2",
     "vite-plugin-pages": "^0.24.1",
     "vite-plugin-vue-layouts": "^0.6.0",
-    "vue-tsc": "^0.34.7"
+    "vite-plugin-windicss": "^1.8.4",
+    "vue-tsc": "^0.34.7",
+    "windicss": "^3.5.4"
   },
   "prettier": "@leekoho/prettier-config"
 }

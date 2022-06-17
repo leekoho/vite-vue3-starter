@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
 import Layouts from 'vite-plugin-vue-layouts'
 import HtmlEnv from 'vite-plugin-html-env'
+import WindiCSS from 'vite-plugin-windicss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -14,5 +15,10 @@ export default defineConfig({
     Layouts(),
     // see https://github.com/lxs24sxl/vite-plugin-html-env
     HtmlEnv(),
+    // see https://windicss.org/integrations/vite.html
+    WindiCSS(),
   ],
+  optimizeDeps: {
+    include: ['vue', 'vue-router'],
+  },
 })

@@ -1,6 +1,7 @@
 <template>
-  <h1>Default Layout</h1>
-  <router-view />
+  <div class="hor-between h-screen bg-gray-100">
+    <router-view />
+  </div>
 </template>
 
 <script lang="ts" setup></script>
