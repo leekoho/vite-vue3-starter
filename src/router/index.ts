@@ -14,4 +14,4 @@ export const setupRouter = (app: App) => {
   app.use(router)
 }
 
-if (import.meta.env.DEV) console.log(`🚀 自动生成的路由: `, routes)
+if (import.meta.env.DEV) console.log(`🚀 由vite-plugin-pages插件自动生成的路由: `, routes)
