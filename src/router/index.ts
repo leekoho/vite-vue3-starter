@@ -10,6 +10,10 @@ export const router = createRouter({
   routes,
 })
 
+router.beforeEach((to, from, next) => {
+  next()
+})
+
 export const setupRouter = (app: App) => {
   app.use(router)
 }

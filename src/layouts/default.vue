@@ -1,7 +1,7 @@
 <template>
-  <div class="hor-between h-screen bg-gray-100">
+  <main class="py-5 px-3">
     <router-view />
-  </div>
-</template>
 
-<script lang="ts" setup></script>
+    <p class="my-5 text-center opacity-75 dark:opacity-50 text-sm">[Default Layout]</p>
+  </main>
+</template>
